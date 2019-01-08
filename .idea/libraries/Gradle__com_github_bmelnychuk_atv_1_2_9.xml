@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bmelnychuk:atv-1.2.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/atv-1.2.9.aar/0a3bc696f8ea4fdea9a6a1d20cdf54ec/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/atv-1.2.9.aar/0a3bc696f8ea4fdea9a6a1d20cdf54ec/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bmelnychuk/atv/1.2.9/aea844ca8936029a262f3d9bae7f8a03be084c16/atv-1.2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

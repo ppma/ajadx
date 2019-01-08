@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation 'org.smali:baksmali:2.2.5'
+    implementation 'org.smali:smali:2.2.5'
+    implementation 'org.yaml:snakeyaml:1.18:android'
+    implementation 'com.google.guava:guava:14.0'
+    implementation 'commons-io:commons-io:2.4'
+    implementation 'org.apache.commons:commons-lang3:3.1'
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'xmlunit:xmlunit:1.6'
+    implementation 'xpp3:xpp3:1.1.4c'
+}
