@@ -20,11 +20,11 @@ public class ClassHolder extends RecyclerViewHolder<ClassHolder> {
 
     public ClassHolder(View view) {
         super(view);
-        fileIcon = (ImageView) view.findViewById(R.id.fileIcon);
-        fileName = (TextView) view.findViewById(R.id.fileName);
-        fileChildCount = (TextView) view.findViewById(R.id.fileChildCount);
-        fileSize = (TextView) view.findViewById(R.id.fileSize);
-        dir_enter_image = (ImageView) view.findViewById(R.id.dir_enter_image);
+        fileIcon = view.findViewById(R.id.fileIcon);
+        fileName = view.findViewById(R.id.fileName);
+        fileChildCount = view.findViewById(R.id.fileChildCount);
+        fileSize = view.findViewById(R.id.fileSize);
+        dir_enter_image = view.findViewById(R.id.dir_enter_image);
     }
 
     @Override

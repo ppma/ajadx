@@ -17,7 +17,7 @@ public class PackageHolder extends RecyclerViewHolder<PackageHolder> {
     public PackageHolder(View itemView) {
         super(itemView);
 
-        textView = (TextView) itemView.findViewById(R.id.title_Name);
+        textView = itemView.findViewById(R.id.title_Name);
     }
 
     @Override

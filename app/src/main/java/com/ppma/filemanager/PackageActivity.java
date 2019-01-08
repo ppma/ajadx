@@ -63,18 +63,18 @@ public class PackageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        title_recycler_view = (RecyclerView) findViewById(R.id.title_recycler_view);
+        title_recycler_view = findViewById(R.id.title_recycler_view);
         title_recycler_view.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         titleAdapter = new PackageAdapter(this, new ArrayList<JNode>());
         title_recycler_view.setAdapter(titleAdapter);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView = findViewById(R.id.recycler_view);
 
         classAdapter = new ClassAdapter(this, jNodes);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(classAdapter);
 
-        empty_rel = (LinearLayout) findViewById(R.id.empty_rel);
+        empty_rel = findViewById(R.id.empty_rel);
 
         classAdapter.setOnItemClickListener(new RecyclerViewAdapter.OnItemClickListener() {
             @Override
